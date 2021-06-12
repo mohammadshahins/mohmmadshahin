@@ -22,8 +22,11 @@ section#sidevar {
     background: #4A63E7;
     overflow: hidden;
     border-radius: 20px;
-    /* margin: 50px 0px 0px 90px; */
+    margin: -25px 0px 0px;
+    /* position: fixed; */
+}.sticky{
     position: fixed;
+    top: 27px;
 }
 
 .myProfileImg img {
@@ -37,7 +40,7 @@ section#sidevar {
 }
 
 .mainSideVar {
-    margin: 30px 30px;
+    margin: 25px 30px;
 }
 
 .myProfileImgDetails h1 {
@@ -60,7 +63,7 @@ section#sidevar {
     font-size: 12px;
 }
 .myNavbar {
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 .myNavbar a {
@@ -92,7 +95,7 @@ a.myNavbarSid::before{
     transform: translateX(7px);
 }
 .myContuctIcon {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .myContuctIcon a {
@@ -140,9 +143,10 @@ a.myNavbarSid::before{
   background-size: 100% 150%;
   border-radius: 20px;
   box-shadow: 0px 0px 15px -2px #999393;
+  margin-top: -25px;
 }
 .introducWraper {
-    margin: 120px 90px;
+    margin: 110px 90px;
 }
 .introucDetails {
     color: white;
@@ -235,13 +239,16 @@ section#sidevar {
     margin-bottom: 80px;
 }
 .aboutImg {
-    width: 25%;
+    width: 20%;
     float: left;
+    border-radius: 25%;
+    overflow: hidden;
 }
 
 .aboutImg img {
-    width: 75%;
-    border-radius: 50%;
+    width: 100%;
+    cursor: pointer;
+    transition: .5s;
 }
 .aboutDiteilsTex {
     width: 75%;
